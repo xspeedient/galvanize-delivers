@@ -1,0 +1,81 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  text-shadow: 2px 3px 5px #ff0000;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.ox {
+  background-color: #4A0000;
+}
+
+.sickly {
+background-color: #f1f8e9;
+}
+
+img {
+  max-width: 100%;
+
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+}
+
+#bannerImg, .img {
+  background-position: 50%;
+  background-image: url('../../img/butcher.jpg');
+  background-size: 930px 620px !important;
+}
+.footer-BOOSH {
+  background-color: #4A0000;
+}
+
+#landingLinks {
+  float: right;
+}
+
+h1 {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+#subHeader {
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px white;
+  background: rgba(255, 255, 255, 0.5);
+  width: 425px;
+  position: relative;
+  left: 50%;
+  margin: 0;
+}
+.middle {
+  float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+#landingOrder {
+  margin-top: 120px;
+}
+.floatRight {
+  float: right;
+}
+
+a:hover {
+  cursor: pointer;
+}
+.copyright {
+  background-color: #8b0000;
+}
