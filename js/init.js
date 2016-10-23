@@ -1,3 +1,4 @@
+'use-strict'
 function numberfy(stringPrice) {
   return parseInt(stringPrice.slice(0, -1));
 }
